@@ -48,7 +48,7 @@ async function handleInit({publicKey, name}: InitRequestData, _: Request): Promi
     // generate account data
     const account: Account = {
       id: crypto.randomUUID(),
-      createdAt: new Date().toUTCString(),
+      createdAt: Date.now(),
       publicKey,
       name,
     };
@@ -79,7 +79,7 @@ async function handleSend({to, content}: SendRequestData, req: Request): Promise
     const msg: Message = {
       id: crypto.randomUUID(),
       from: senderId,
-      createdAt: new Date().toUTCString(),
+      createdAt: Date.now(),
       to,
       content,
     };
@@ -259,7 +259,7 @@ interface Account {
   id: string;
   name?: string;
   publicKey: string;
-  createdAt: string;
+  createdAt: number;
 }
 
 interface Token extends Payload {
@@ -272,7 +272,7 @@ interface Message {
   from: string;
   to: string;
   content: string;
-  createdAt: string;
+  createdAt: number;
 }
 
 interface InitRequestData {
@@ -292,7 +292,7 @@ interface SendRequestData {
 
 interface SendResponseData {
   id: string;
-  createdAt: string;
+  createdAt: number;
 }
 
 interface ReceiveRequestData {
