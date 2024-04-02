@@ -188,7 +188,7 @@ async function loadAuthKey(): Promise<CryptoKey> {
   const keyFromEnv = Deno.env.get("AUTH_KEY");
   return await crypto.subtle.importKey(
     "raw",
-    decodeBase64(keyFromEnv || ""),
+    decodeBase64(keyFromEnv || await Deno.readTextFile(".defaultAuthKey")),
     {name: "HMAC", hash: "SHA-512"},
     true,
     ["sign", "verify"],
