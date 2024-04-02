@@ -1,0 +1,24 @@
+{
+  "version": "3",
+  "remote": {
+    "https://deno.land/std@0.221.0/assert/assert.ts": "bec068b2fccdd434c138a555b19a2c2393b71dfaada02b7d568a01541e67cdc5",
+    "https://deno.land/std@0.221.0/assert/assertion_error.ts": "9f689a101ee586c4ce92f52fa7ddd362e86434ffdf1f848e45987dc7689976b8",
+    "https://deno.land/std@0.221.0/crypto/_wasm/lib/deno_std_wasm_crypto.generated.mjs": "f65ea775c52c5641f0154d98d6059e261ca3dc917a8856209d60bc6cb406e699",
+    "https://deno.land/std@0.221.0/crypto/_wasm/mod.ts": "e89fbbc3c4722602ff975dd85f18273c7741ec766a9b68f6de4fd1d9876409f8",
+    "https://deno.land/std@0.221.0/crypto/crypto.ts": "7ccd24e766d026d92ee1260b5a1639624775e94456d2a95c3a42fd3d49df78ab",
+    "https://deno.land/std@0.221.0/crypto/mod.ts": "9148fb70ca3d64977e9487b2002d3b1026e8ad8a2078774b807586ba3c77e3bb",
+    "https://deno.land/std@0.221.0/crypto/timing_safe_equal.ts": "bc3622b5aec05e2d8b735bf60633425c34333c06cfb6c4a9f102e4a0f3931ced",
+    "https://deno.land/std@0.221.0/crypto/unstable_keystack.ts": "c2a6f6ed67a4e78745e3c9b490ebb7c12f6066f5c2fe0c69d353961909dc82dd",
+    "https://deno.land/std@0.221.0/dotenv/mod.ts": "0180eaeedaaf88647318811cdaa418cc64dc51fb08354f91f5f480d0a1309f7d",
+    "https://deno.land/std@0.221.0/dotenv/parse.ts": "09977ff88dfd1f24f9973a338f0f91bbdb9307eb5ff6085446e7c423e4c7ba0c",
+    "https://deno.land/std@0.221.0/dotenv/stringify.ts": "0047ad7068289735d08964046aea267a750c141b494ca0e38831b89be6c020c2",
+    "https://deno.land/std@0.221.0/encoding/_util.ts": "beacef316c1255da9bc8e95afb1fa56ed69baef919c88dc06ae6cb7a6103d376",
+    "https://deno.land/std@0.221.0/encoding/base64.ts": "8ccae67a1227b875340a8582ff707f37b131df435b07080d3bb58e07f5f97807",
+    "https://deno.land/std@0.221.0/encoding/base64url.ts": "9cc46cf510436be63ac00ebf97a7de1993e603ca58e1853b344bf90d80ea9945",
+    "https://deno.land/x/djwt@v3.0.2/algorithm.ts": "b1c6645f9dbd6e6c47c123a3b18c28b956f91c65ed17f5b6d5d968fc3750542b",
+    "https://deno.land/x/djwt@v3.0.2/deps.ts": "a7954fe567f2097b4f6aca11d091b6df658e485a817ac4dee47257ed5c28fd6e",
+    "https://deno.land/x/djwt@v3.0.2/mod.ts": "962d8f2c4d6a4db111f45d777b152356aec31ba7db0ca664601175a422629857",
+    "https://deno.land/x/djwt@v3.0.2/signature.ts": "16238fbf558267c85dd6c0178045f006c8b914a7301db87149f3318326569272",
+    "https://deno.land/x/djwt@v3.0.2/util.ts": "5cb264d2125c553678e11446bcfa0494025d120e3f59d0a3ab38f6800def697d"
+  }
+}
