@@ -186,13 +186,9 @@ function createErrorResponse(err: ApiError): Response {
 
 async function loadAuthKey(): Promise<CryptoKey> {
   const keyFromEnv = Deno.env.get("AUTH_KEY");
-  if (!keyFromEnv) {
-    console.error("AUTH_KEY not found");
-    Deno.exit(1);
-  }
   return await crypto.subtle.importKey(
     "raw",
-    decodeBase64(keyFromEnv),
+    decodeBase64(keyFromEnv || ""),
     {name: "HMAC", hash: "SHA-512"},
     true,
     ["sign", "verify"],
